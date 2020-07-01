@@ -171,9 +171,9 @@ footer {
 @media only screen and (max-width: 767px) {
 
   .button {
-     margin: auto;
-  width: 65%;
-  color: white;
+     
+  width: 100%;
+  
   }
 
   .textfield {
