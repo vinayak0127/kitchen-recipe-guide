@@ -46,9 +46,14 @@
         <label for="contains" style="font-size: 20px; color: white;">Dish Name Contains (no commas):</label><input class="textfield" id="contains" type="text" name="contains" placeholder="e.g. spaghetti (optional)" onChange="sanitizeInputs()" /></div>
       <div class="button">
         <br />
-        <input class="button btn waves-effect waves-light btn-large " type="button" value="Reset" id="resetButton" onClick="this.form.reset();resetResults()" /><br><br>
-        <input class="button btn waves-effect waves-light btn-large" type="submit" value="Search" id="searchButton" />
-      </div>
+      <button class="button btn waves-effect waves-light btn-large "
+           type="button" value="Reset" id="resetButton" onClick="this.form.reset();resetResults()">reset
+        </button>
+        <br><br>
+        <button class="button btn waves-effect waves-light btn-large"
+            type="submit" value="Search" id="searchButton" >search
+        </button>
+     </div>
     </form>
   </div>
   </p>
