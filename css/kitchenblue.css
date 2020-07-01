@@ -10,6 +10,9 @@ body {
 input {
   width: 30%;
 }
+btn, .btn-large, .btn-small{
+  color: black!important;
+}
 
 label {
   color: white;
